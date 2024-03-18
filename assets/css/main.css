@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #0F0F0F;
+}
+
+/* Переопределение стилей библиотеки Quasar */
+.q-toolbar__title {
+    color: black;
+    font-family: 'Noto Serif', serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.q-btn {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.q-btn:before {
+   box-shadow: none;
+}
+
+.q-btn--rounded {
+    border-radius: 12px;
+}
+
+.q-btn--outline {
+    background-color: #e8e8e8 !important;
+}
+
+.text-h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.rounded-borders {
+    border-radius: 20px;
+}
