@@ -14,13 +14,6 @@
         </div>
         <p class="working-hours__description">Сегодня с 8:00 до 23:00</p>
       </div>
-      <div class="location">
-        <div class="location-info">
-          <div class="text-h3 location__title">Местоположение</div>
-          <p class="location__description">Ростов на Дону, Воронежская ул.,<br>42А корп. 1</p>
-        </div>
-        <img class="location__img" src="/images/map.jpeg"/>
-      </div>
     </div>
    </div>
   <AppFooter />
@@ -73,29 +66,29 @@
   }
 }
 
-.location {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 12px; 
+// .location {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   margin-top: 12px; 
 
-  .location-info {
-    padding: 20px;
-  }
+//   .location-info {
+//     padding: 20px;
+//   }
 
-  &__description {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #337566;
-  }
+//   &__description {
+//     font-size: 17px;
+//     font-weight: 400;
+//     line-height: 28px;
+//     color: #337566;
+//   }
 
-  &__img {
-    display: flex;
-    justify-content: flex-end;
-    align-self: center;
-    max-width: 100%;
-    height: auto;
-  }
-}
+//   &__img {
+//     display: flex;
+//     justify-content: flex-end;
+//     align-self: center;
+//     max-width: 100%;
+//     height: auto;
+//   }
+// }
 </style>

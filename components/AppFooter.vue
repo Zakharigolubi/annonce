@@ -12,6 +12,7 @@
 .footer {
   background-color: #F5F5F5;
   border-top: 1px solid #DBDBDB;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   font-size: 15px;
